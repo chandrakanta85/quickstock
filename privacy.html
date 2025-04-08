@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [Your Brand Name]</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        header {
+            background-color: #0b0b0b;
+            color: rgb(16, 15, 15);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            font-size: 1rem;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        #ack-message {
+            margin-top: 1rem;
+            color: #4CAF50;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to Quick Stock. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.</p>
+        </section>
+
+        <section>
+            <h2>2. Information We Collect</h2>
+            <p>We may collect personal information such as your name, email address, shipping address, payment details, and browsing behavior on our site.</p>
+        </section>
+
+        <section>
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the data to process orders, improve customer service, personalize your experience, and send you updates or promotional emails (if opted in).</p>
+        </section>
+
+        <section>
+            <h2>4. Sharing Your Information</h2>
+            <p>We do not sell your data. We may share your information with trusted partners who assist in operating our website and fulfilling your orders.</p>
+        </section>
+
+        <section>
+            <h2>5. Cookies</h2>
+            <p>Our website uses cookies to enhance user experience. You can choose to disable cookies through your browser settings.</p>
+        </section>
+
+        <section>
+            <h2>6. Data Security</h2>
+            <p>We implement a variety of security measures to protect your personal information, including encryption and secure payment gateways.</p>
+        </section>
+
+        <section>
+            <h2>7. Your Consent</h2>
+            <p>By using our site, you consent to our privacy policy.</p>
+            <button onclick="acknowledgePolicy()">I Acknowledge</button>
+            <div id="ack-message">✅ Thank you! Your acknowledgment has been recorded.</div>
+        </section>
+
+        <section>
+            <h2>8. Updates to This Policy</h2>
+            <p>We may update this policy from time to time. All changes will be posted on this page.</p>
+        </section>
+
+        <section>
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:support@quickstock.com">support@quickstock.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Quick Stock. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function acknowledgePolicy() {
+            const msg = document.getElementById("ack-message");
+            msg.style.display = "block";
+            setTimeout(() => {
+                msg.style.display = "none";
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
